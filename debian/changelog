@@ -1,0 +1,5 @@
+kali-gemini-linux (3.18.41.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Carsten Boeving <carsten.boeving@whitedome.com.au>  Sun, 21 Oct 2018 01:24:10 +0000

@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+%:
+		dh $@ 
+
+override_dh_gconf:
+		# Use 20 as priority as recommended by update-gconf-defaults(1)
+		# 	# since we're a Debian derivative
+		# 		dh_gconf --priority=20

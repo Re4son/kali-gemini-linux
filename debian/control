@@ -1,0 +1,17 @@
+Source: kali-gemini-linux
+Section: kernel
+Priority: optional
+Maintainer: Carsten Boeving <carsten.boeving@whitedome.com.au>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 4.2.0
+Homepage: https://www.kernel.org/
+Vcs-Git: https://github.com/Re4son/gemini-kali-linux-kernel-3.18
+Vcs-Browser: https://github.com/Re4son/gemini-kali-linux-kernel-3.18
+
+Package: kali-gemini-linux
+Architecture: arm64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Linux 3.18 for Gemini PDA
+ Linux kernel 3.18 modules for use on Gemini PDA.
+ The kernel image is not included and must be flashed
+ as boot image with ramdisk using the OEM SP Flash Tool.
