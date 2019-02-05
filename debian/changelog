@@ -1,3 +1,9 @@
+kali-gemini-linux (3.18.41.11-1) kali-rolling; urgency=medium
+
+  * Release kernel 3.18.41.11
+
+ -- Re4son <re4son@kali.org>  Tue, 05 Feb 2019 22:30:49 +1100
+
 kali-gemini-linux (3.18.41.9-1) kali-rolling; urgency=medium
 
   * Release kernel 3.18.41.9
